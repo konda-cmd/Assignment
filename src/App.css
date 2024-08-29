@@ -1,0 +1,52 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+body{
+  background-color: burlywood;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.current-weather, .forecast {
+  margin-top: 20px;
+}
+
+.current-weather h2, .forecast h3 {
+  margin-bottom: 10px;
+}
+
+.forecast-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.forecast-day {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 120px;
+  margin: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
